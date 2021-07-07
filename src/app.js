@@ -5,6 +5,7 @@ const { emitWarning } = require('process');
 const geocode =require('./utils/geocode')
 const forecast =require('./utils/forecast')
 const app= express();
+// const hello='hello'
 //define paths for express connfig
 
 const publicDirectoryPath = path.join(__dirname,'../public');
