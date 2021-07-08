@@ -5,6 +5,8 @@ const { emitWarning } = require('process');
 const geocode =require('./utils/geocode')
 const forecast =require('./utils/forecast')
 const app= express();
+
+const port =process.env.PORT || 3000
 // console.log('hii');
 // const hello='hello'
 //define paths for express connfig
@@ -102,6 +104,6 @@ app.get('*',(req,res)=>{
    })
 })
 
-app.listen(3000,()=>{
-    console.log('server is Listening on 3000...');
+app.listen(port,()=>{
+    console.log('server is Listening on...'+port);
 })
