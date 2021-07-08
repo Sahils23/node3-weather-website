@@ -34,7 +34,7 @@ app.get('',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.render('about',{
         title : 'about us',
-        name : 'aishu shinde'
+        name : 'sahil shinde'
     })
 })
 
@@ -42,7 +42,7 @@ app.get('/help', (req,res)=>{
     res.render('help',{
         msg : 'What kind of help do u want ?',
         title :'help',
-        name: 'Sakshi Pharande'
+        name: 'sahil shinde'
     })
 })
 
