@@ -5,6 +5,7 @@ const { emitWarning } = require('process');
 const geocode =require('./utils/geocode')
 const forecast =require('./utils/forecast')
 const app= express();
+// console.log('hii');
 // const hello='hello'
 //define paths for express connfig
 
@@ -39,7 +40,7 @@ app.get('/help', (req,res)=>{
     res.render('help',{
         msg : 'What kind of help do u want ?',
         title :'help',
-        name: 'sakshi pharande'
+        name: 'Sakshi Pharande'
     })
 })
 
